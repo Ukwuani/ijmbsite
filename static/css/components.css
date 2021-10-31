@@ -1,0 +1,199 @@
+
+.AlphaBackdrop {
+    background-image: url('../img/black-students.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+    height: 97vh;
+}
+
+.AlphaOverlay {
+    /* background: linear-gradient(135deg,#499bea,#798eea); */
+    /* background: linear-gradient(135deg,#5755d9,#4b48d6); */
+    background-color: rgba(75, 72, 214, 0.9);
+    height: 100%;
+    /* opacity: .9; */
+}
+
+/* ABOUT CONTAINER */
+.AlphaAboutContainer {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding-top: 10em;
+    align-items: center;
+    text-align: center
+
+    
+}
+
+.AlphaAboutImage {
+    margin-bottom: 1em;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AlphaAboutImage img {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    /* filter: grayscale(20); */
+}
+
+.AlphaCentre {
+    margin: auto;
+}
+
+/* .AlphaCentre {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+
+
+
+/* Topbar Component Styling */
+
+
+/* Catch Phrases Component Styling */
+.AlphaCatchPhrases {
+    height: 90%;
+    width: 50%;
+    margin: auto;
+    padding-top: 10em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AlphaCatchPhrases h1 {
+    color: #FFF;
+    line-height: 1.5;
+}
+
+.AlphaCatchPhrases i {
+    color: white;
+}
+
+
+/* 
+    Bottombar Component
+*/
+
+
+
+.AlphaCategory {
+    padding: 2em 0 3em;
+    margin: auto;
+    width: 70%;
+}
+
+
+
+/* Catch Phrases Stylings */
+.AlphaCatchPhrases button {
+    background: none;
+    border: 0;
+    border: 1.5px solid white;
+    border-radius: 2em;
+    padding: 1em 2.5em;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2em;
+    letter-spacing: 0.8px;
+    outline: 0;
+}
+
+.AlphaCatchPhrases button:hover {
+    background: white;
+    color: #5755d9;
+}
+
+.AlphaCatchPhrasesPointer {
+    /* margin-top: 5em; */
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 640px) {
+
+    .AlphaBackdrop {
+        /* background-size: contain; */
+        background-position: 70% 50%;
+    }
+
+    .AlphaTitle {
+        font-size: 15px;
+    }
+
+    .AlphaBackdrop {
+        height: 95vh;
+    }
+
+    .AlphaCatchPhrases {
+        width: 92%;
+        padding-top: 8em;
+    }
+
+    .AlphaCatchPhrases h1 {
+        font-size: 18px;
+    }
+
+    .AlphaCategory {
+        width: 80%;
+    }
+    
+    .AlphaCatchPhrases button {
+        padding: 1em 2em;
+        font-size: 13px;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .AlphaTitle {
+        font-size: 20px;
+    }
+
+    .AlphaBackdrop {
+        height: 60vh;
+    }
+
+    .AlphaCatchPhrases {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .AlphaBackdrop {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height: 812px) {
+    .AlphaBackdrop {
+        /* height: 60vh; */
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .AlphaBackdrop {
+        /* height: 90vh; */
+    }
+}

@@ -1,0 +1,19 @@
+/*
+ * File: 'fonts.css'
+ * Created by Dare McAdewole <dare.dev.adewole@gmail.com>
+ * Created on Fri Jul 12 2019
+ *
+ * Copyright (c) 2019 Echwood Inc.
+ *
+ * Description:
+ *       Base Font Imports
+ */
+@font-face {
+    font-family: FredokaOne;
+    src: url('../fonts/FredokaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: VarelaRound;
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
